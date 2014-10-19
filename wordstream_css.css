@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	font-family: Arial;
+
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	border: 2px solid gray;
+}
+
+	#wrapper h1{
+		padding: 10px 0px 10px 10px;
+	}
+
+#header{
+	height: 90px;
+	border: 1px solid red;
+}
+
+	#header img{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#header div{
+		display: inline-block;
+		width: 480px;
+		margin-left: 80px;
+		border: 1px solid DarkGray;
+		background-color: #eee;
+		color: DimGray;
+		border-radius: 0px 0px 5px 5px;
+		border-top: 0px;
+		padding: 3px 0px 10px 0px;
+	}
+
+	#header li{
+		display: inline-block;
+		padding: 0px 5px 0px 5px;
+		border-right: 1px solid gray;
+	}
+
+	#header li:last-child{
+		border: 0px;
+	}
+
+	#header form{
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	#header form input{
+		background-color: DodgerBlue;
+		color: white;
+	}
+
+#left_panel{
+	width: 190px;
+	margin: 15px;
+	padding: 10px;
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+	#left_panel h3{
+		margin-top: 50px;
+		margin-bottom: 8px;
+	}
+
+	#left_panel p:nth-of-type(1){
+		color: DarkOrange;
+	}
+
+	#left_panel p:nth-of-type(2){
+		margin-bottom: 20px;
+	}
+	#left_panel p:nth-of-type(3){
+		text-align: center;
+		border-bottom: 1px solid DarkGray;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+
+	#sd input{
+		background-color: DodgerBlue;
+		color: white;
+		width: 170px;
+		margin-bottom: 4px;
+	}
+
+	#ft input{
+		background-color: DarkOrange;
+		color: white;
+		width: 170px;
+		margin-bottom: 8px;
+	}
+
+#main_panel{
+	width: 700px;
+	margin: 15px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0.9em;
+}
+	#phone_panel{
+		width: 300px;
+		margin-left: 420px;
+		padding: 10px;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 0.9em;
+		color: DimGray;
+		text-align: center;
+		border: 2px solid black;
+	}
+
+	#phone_panel p:nth-of-type(2){
+		color: DodgerBlue;
+		font-size: 2em
+	}
+	#phone_panel img{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#main_panel ul{
+		text-align: left;
+		list-style-type: square;
+		margin-bottom: 20px;
+	}
+
+	#main_panel h2{
+		margin-bottom: 10px;
+		border-top: 1px solid DarkGray;
+	}
+
+	#main_panel p:nth-of-type(1){
+		/*margin-bottom: 8px;*/
+	}
+
+	#main_panel p:nth-of-type(2){
+		/*margin-bottom: 8px;*/
+	}
+
+	#main_subsection {
+		width: 650px;
+		border: 5px solid LightSteelBlue;
+		display: inline-block;
+	}
+
+	#main_subsection img{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#main_subsection h2{
+		margin-bottom: 10px;
+		border-top: 0px;
+	}
+
+	#gst input{
+		background-color: YellowGreen;
+		color: white;
+		width: 120px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+
+h1{
+	background-color: DodgerBlue;
+	color: white;
+}
+
+h2,h3{
+	color: DodgerBlue;
+}
+
+#top_menu{
+
+}
